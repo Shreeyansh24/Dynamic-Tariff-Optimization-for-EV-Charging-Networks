@@ -1,0 +1,39 @@
+{
+  "project": "OP'26 EV Charging Dynamic Tariff Optimization",
+  "acn_sessions": 900,
+  "urbanev_records": 2134080,
+  "unified_slots": 184807,
+  "demand_prediction": {
+    "rmse": 0.04537822897008027,
+    "mae": 0.024770472762820045,
+    "r2": 0.9506972248418799,
+    "train_rows": 138346.0,
+    "test_rows": 46203.0
+  },
+  "tariff_pricing": {
+    "revenue_gain_pct": 7.997850126668733,
+    "baseline_utilization_rate": 0.3030943407735327,
+    "post_pricing_utilization_rate": 0.3100274362296627,
+    "off_peak_uplift_pct": 5.473423755915265,
+    "surge_slot_pct": 3.871600496345144,
+    "discount_slot_pct": 11.968095194230258,
+    "avg_dynamic_tariff_inr": 15.50905871800351,
+    "total_dynamic_revenue_inr": 1266240893.671444,
+    "total_baseline_revenue_inr": 1172468611.3531823
+  },
+  "monitoring_learning": {
+    "avg_wait_reduction_pct": 22.000000000000007,
+    "customer_response_rate": 0.16412672272156192,
+    "pricing_efficiency_score": 16.60612998000629,
+    "final_revenue_gain_pct": 11.070074611301491,
+    "efficiency_improvement_pct": 3.128979667262261,
+    "episode_count": 5
+  },
+  "headline_results": {
+    "r2_score": 0.9506972248418799,
+    "revenue_gain_pct": 7.997850126668733,
+    "off_peak_uplift_pct": 5.473423755915265,
+    "avg_wait_reduction_pct": 22.000000000000007,
+    "pricing_efficiency_inr_per_kwh": 16.60612998000629
+  }
+}

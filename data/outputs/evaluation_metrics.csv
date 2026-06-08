@@ -1,0 +1,21 @@
+agent,metric,value
+Demand Prediction,rmse,0.04537822897008027
+Demand Prediction,mae,0.024770472762820045
+Demand Prediction,r2,0.9506972248418799
+Demand Prediction,train_rows,138346.0
+Demand Prediction,test_rows,46203.0
+Tariff Pricing,revenue_gain_pct,7.997850126668733
+Tariff Pricing,baseline_utilization_rate,0.3030943407735327
+Tariff Pricing,post_pricing_utilization_rate,0.3100274362296627
+Tariff Pricing,off_peak_uplift_pct,5.473423755915265
+Tariff Pricing,surge_slot_pct,3.871600496345144
+Tariff Pricing,discount_slot_pct,11.968095194230258
+Tariff Pricing,avg_dynamic_tariff_inr,15.50905871800351
+Tariff Pricing,total_dynamic_revenue_inr,1266240893.671444
+Tariff Pricing,total_baseline_revenue_inr,1172468611.3531823
+Monitoring & Learning,avg_wait_reduction_pct,22.000000000000007
+Monitoring & Learning,customer_response_rate,0.16412672272156192
+Monitoring & Learning,pricing_efficiency_score,16.60612998000629
+Monitoring & Learning,final_revenue_gain_pct,11.070074611301491
+Monitoring & Learning,efficiency_improvement_pct,3.128979667262261
+Monitoring & Learning,episode_count,5.0

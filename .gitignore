@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data and models (download or regenerate via pipeline)
+data/raw/
+data/processed/
+data/outputs/*.csv
+data/outputs/*.png
+models/*.joblib
+
+# Small metric summaries (tracked for quick reference)
+!data/outputs/evaluation_metrics.csv
+!data/outputs/monitoring_episodes.csv
+!data/outputs/pipeline_summary.csv
+!data/outputs/pricing_signal_distribution.csv
+!data/outputs/robustness_checks.csv
+!data/outputs/results_summary.json
+
+# Generated deliverables
+submission/
+OP26_Submission.zip
+docs/OP26_Analytics_Presentation.pptx
+
+# OS
+.DS_Store
+Thumbs.db
